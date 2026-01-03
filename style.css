@@ -1,15 +1,29 @@
-body {
+  body {
     margin: 0;
-    background: #5ff8f8c1;
+    background: radial-gradient(circle at center, #222 0%, #000 70%);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-}
+    font-family: 'Press Start 2P', monospace;
+  }
 
-canvas {
-    border: 2px solid #000;
-    /* background: #77d9e4; */
+  .cabinet {
+    padding: 24px;
+    background: #111;
+    border: 10px solid #555;
+    box-shadow: 0 0 60px rgba(0,0,0,0.95);
+  }
 
-}
+  canvas {
+    display: block;
+    background: linear-gradient(#4ec0ca, #eafcfd);
+    border: 6px solid #fff;
+  }
+
+  .caption {
+    color: #aaa;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 12px;
+  }
